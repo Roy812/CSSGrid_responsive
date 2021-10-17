@@ -1,0 +1,24 @@
+.container {
+    height: 375px;
+    color: #e5383b;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 100px 75px;
+    font-family: Calibri, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.container_image {
+    height: 300px;
+}
+
+.container_line {
+    grid-column: 2 / 4;
+}
+
+/*
+    You can do overlapping on items by specifying both 'grid-column' and 'grid-row'.
+    If you don't specify both, the browser will automatically place the item on the first available space in the grid.
+*/
+

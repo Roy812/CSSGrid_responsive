@@ -1,0 +1,60 @@
+/*body {*/
+/*    margin: 0px;*/
+/*}*/
+
+.parent {
+    height: 100vh;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*grid-template-columns: 33% 33% 33%;*/
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "item1 item3 item4"
+        "item1 item5 item6";
+    grid-gap: 20px;
+    font-family: Calibri, serif;
+    font-size: 1.12rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.item1 {
+    grid-area: item1;
+    background-color: #e5383b;
+    text-align: center;
+    /*WITHOUT GRID-TEMPLATE-AREAS USE THIS:*/
+    /*grid-row: span 2 / 3;*/
+    /*display: grid;*/
+    /*align-content: center;*/
+}
+
+/*.item2 {*/
+/*    grid-area: item2;*/
+/*    background-color: #e5383b;*/
+/*    text-align: center;*/
+/*}*/
+
+.item3 {
+    grid-area: item3;
+    background-color: #e5383b;
+    text-align: center;
+}
+
+.item4 {
+    grid-area: item4;
+    background-color: #e5383b;
+    text-align: center;
+}
+
+.item5 {
+    grid-area: item5;
+    background-color: #e5383b;
+    text-align: center;
+}
+
+.item6 {
+    grid-area: item6;
+    background-color: #e5383b;
+    text-align: center;
+}
