@@ -23,10 +23,6 @@
     grid-area: item1;
     background-color: #e5383b;
     text-align: center;
-    /*WITHOUT GRID-TEMPLATE-AREAS USE THIS:*/
-    /*grid-row: span 2 / 3;*/
-    /*display: grid;*/
-    /*align-content: center;*/
 }
 
 /*.item2 {*/

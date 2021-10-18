@@ -1,19 +1,35 @@
-.container {
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
 
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 350px));
+    justify-content: center;
+    color: #fff;
+    background-color: #e5383b;
+    font-family: Calibri, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
 }
 
 .item1 {
+    margin: auto;
+}
 
+.item1::after {
+    content: "Without Queries!";
+    color: #fff;
+    font-size: 1.2rem;
+    border-bottom: black 3px solid;
 }
 
 .item2 {
-
+    margin: auto;
 }
 
 .item3 {
-
-}
-
-.item4 {
-
+    margin: auto;
 }
